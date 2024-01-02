@@ -18,7 +18,7 @@ jobs:
       with:
         python-version: '3.x'
 
-    - name: Fetch RSS Feed
+    - name: Fetch RSS Feed and Write to File
       run: |
         pip install requests
         python ./fetch_rss.py
