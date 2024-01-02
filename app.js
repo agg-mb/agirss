@@ -26,21 +26,21 @@
 
 /* Automatically scrolling */
 function autoScroll() {
-    if (rssfeed.scrollHeight <= rssfeed.clientHeight) {
+    if (rss-content.scrollHeight <= rss-content.clientHeight) {
         // If all content is visible, no need to scroll
         return;
     }
 
     // Check if we've scrolled to the bottom
-    if (rssfeed.scrollTop + rssfeed.clientHeight >= rssfeed.scrollHeight) {
+    if (rss-content.scrollTop + rss-content.clientHeight >= rss-content.scrollHeight) {
         scrollDirection = -1;
     }
     // Check if we've scrolled back to the top
-    else if (rssfeed.scrollTop === 0) {
+    else if (rss-content.scrollTop === 0) {
         scrollDirection = 1;
     }
 
-    rssfeed.scrollTop += scrollSpeed * scrollDirection;
+    rss-content.scrollTop += scrollSpeed * scrollDirection;
 }
 
 setInterval(autoScroll, 100); // Adjust interval for faster or slower scroll
