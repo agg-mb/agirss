@@ -15,11 +15,24 @@ function fetchAndDisplayRSS() {
             items.forEach(item => {
                 // Split each item by newline to get individual fields
                 const fields = item.split('\n');
-                htmlContent += `<article>`;
+                let itemHtml = '<div class="rss-item">';
                 fields.forEach(field => {
-                    htmlContent += `<p>${field}</p>`;
+                    if (field.startsWith('Title: ')) {
+                        const title = field.replace('Title: ', '');
+                        itemHtml += '<h1>' + title + '</h1>';
+                    } else if (field.startsWith('Image URL: ') && !field.includes('None')) {
+                        const imageUrl = field.replace('Image URL: ', '');
+                        itemHtml += '<img src="' + imageUrl + '" alt="RSS Image">';
+                    } else if (field.startsWith('Link: ')) {
+                        const link = field.replace('Link: ', '');
+                        itemHtml += '<a href="' + link + '">Read More</a>';
+                    } else if (field.startsWith('Description: ')) {
+                        const description = field.replace('Description: ', '');
+                        itemHtml += '<p>' + description + '</p>';
+                    }
                 });
-                htmlContent += `</article>`;
+                itemHtml += '</div>';
+                htmlContent += itemHtml;
             });
             contentDiv.innerHTML = htmlContent;
         })
