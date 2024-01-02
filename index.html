@@ -1,32 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
-    <title>RSS Feed Display</title>
-    <style>
-        /* Add your CSS styling here */
-        body {
-            font-family: Arial, sans-serif;
-        }
-        article {
-            margin-bottom: 20px;
-            padding: 10px;
-            border-bottom: 1px solid #ccc;
-        }
-        a {
-            text-decoration: none;
-            color: blue;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>agilimo RSS feed</title>
 </head>
 <body>
 
     <h1>agilimo RSS feed</h1>
-    <div id="feed-container"></div>
+<!--  <div id="feed-container"></div> -->
+    <div id="rss-content"></div>
 
+<script src="app.js"></script>
+    
 <script>
     // Function to fetch and display RSS content
     function fetchAndDisplayRSS() {
