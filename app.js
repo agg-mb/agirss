@@ -1,28 +1,33 @@
-    // Function to fetch and display RSS content
-    function fetchAndDisplayRSS() {
-        fetch('rss_content.txt')
-            .then(response => response.text())
-            .then(data => {
-                const contentDiv = document.getElementById('rssfeed');
-                // Split the content by double newline to separate each RSS item
-                const items = data.split('\n\n');
-                let htmlContent = '';
-                items.forEach(item => {
-                    // Split each item by newline to get individual fields
-                    const fields = item.split('\n');
-                    htmlContent += `<article>`;
-                    fields.forEach(field => {
-                        htmlContent += `<p>${field}</p>`;
-                    });
-                    htmlContent += `</article>`;
-                });
-                contentDiv.innerHTML = htmlContent;
-            })
-            .catch(error => console.error('Error fetching the RSS content:', error));
-    }
+/* Automatic scrolling */
+const rssfeed = document.getElementById('rssfeed');
+let scrollDirection = 1; // 1 for downward, -1 for upward
+const scrollSpeed = 1; // Adjust for faster or slower scroll
 
-    // Call the function when the window loads
-    window.onload = fetchAndDisplayRSS;
+// Function to fetch and display RSS content
+function fetchAndDisplayRSS() {
+    fetch('rss_content.txt')
+        .then(response => response.text())
+        .then(data => {
+            const contentDiv = document.getElementById('rssfeed');
+            // Split the content by double newline to separate each RSS item
+            const items = data.split('\n\n');
+            let htmlContent = '';
+            items.forEach(item => {
+                // Split each item by newline to get individual fields
+                const fields = item.split('\n');
+                htmlContent += `<article>`;
+                fields.forEach(field => {
+                    htmlContent += `<p>${field}</p>`;
+                });
+                htmlContent += `</article>`;
+            });
+            contentDiv.innerHTML = htmlContent;
+        })
+        .catch(error => console.error('Error fetching the RSS content:', error));
+}
+
+// Call the function when the window loads
+window.onload = fetchAndDisplayRSS;
 
 /* Automatically scrolling */
 function autoScroll() {
