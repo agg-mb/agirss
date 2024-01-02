@@ -6,13 +6,14 @@ rss_url = "https://agilimo.de/feed/"
 
 # Fetch the RSS feed
 response = requests.get(rss_url)
-response.raise_for_status()  # Will raise an error if the fetch fails
+response.raise_for_status()
 
 # Parse the RSS feed
 root = ET.fromstring(response.content)
 
-# Extract and print each item's title and link
-for item in root.findall('.//item'):
-    title = item.find('title').text
-    link = item.find('link').text
-    print(f"Title: {title}\nLink: {link}\n")
+# Open a file to write the feed contents
+with open('rss_content.txt', 'w') as file:
+    for item in root.findall('.//item'):
+        title = item.find('title').text
+        link = item.find('link').text
+        file.write(f"Title: {title}\nLink: {link}\n\n")
