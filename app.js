@@ -12,11 +12,9 @@ function fetchAndDisplayRSS() {
             // Split the content by double newline to separate each RSS item
             const items = data.split('\n\n');
             let htmlContent = '';
-            items.forEach(item => {
-                // Split each item by newline to get individual fields
+            items.forEach((item, index) => {
                 const fields = item.split('\n');
                 let itemHtml = '<div class="rss-item">';
-                let title = '', pubDate = '';
                 let link = '';
                 fields.forEach(field => {
                     if (field.startsWith('Title: ')) {
