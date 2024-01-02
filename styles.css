@@ -1,3 +1,9 @@
+/* Scrolling */
+#rssfeed {
+    height: 100vh;  /* Adjust to your desired viewport height */
+    overflow: auto;
+}
+
 /* Base styling for dark mode */
 body {
     background-color: #FFFFFF; /* White background */
