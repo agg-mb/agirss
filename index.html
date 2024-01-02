@@ -27,31 +27,33 @@
     <h1>agilimo RSS feed</h1>
     <div id="feed-container"></div>
 
-    <script>
-        const RSS_URL = `https://agilimo.de/feed/`;
-
-        fetch(RSS_URL)
+<script>
+    // Function to fetch and display RSS content
+    function fetchAndDisplayRSS() {
+        fetch('rss_content.txt')
             .then(response => response.text())
-            .then(str => new window.DOMParser().parseFromString(str, "text/xml"))
             .then(data => {
-                const items = data.querySelectorAll("item");
-                let html = ``;
-                items.forEach(el => {
-                    html += `
-                        <article>
-                            <h2>
-                                <a href="${el.querySelector("link").innerHTML}" target="_blank" rel="noopener">
-                                    ${el.querySelector("title").innerHTML}
-                                </a>
-                            </h2>
-                            <p>${el.querySelector("description").innerHTML}</p>
-                        </article>
-                    `;
+                const contentDiv = document.getElementById('rss-content');
+                // Split the content by double newline to separate each RSS item
+                const items = data.split('\n\n');
+                let htmlContent = '';
+                items.forEach(item => {
+                    // Split each item by newline to get individual fields
+                    const fields = item.split('\n');
+                    htmlContent += `<article>`;
+                    fields.forEach(field => {
+                        htmlContent += `<p>${field}</p>`;
+                    });
+                    htmlContent += `</article>`;
                 });
-                document.getElementById("feed-container").innerHTML = html;
+                contentDiv.innerHTML = htmlContent;
             })
-            .catch(error => console.error('Error fetching the RSS feed:', error));
-    </script>
+            .catch(error => console.error('Error fetching the RSS content:', error));
+    }
+
+    // Call the function when the window loads
+    window.onload = fetchAndDisplayRSS;
+</script>
 
 </body>
 </html>
