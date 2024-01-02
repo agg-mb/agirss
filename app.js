@@ -27,7 +27,7 @@ function fetchAndDisplayRSS() {
                         const imageUrl = field.replace('Image URL: ', '');
                         itemHtml += '<img src="' + imageUrl + '" alt="RSS Image">';
                     } else if (field.startsWith('Link: ')) {
-                        const link = field.replace('Link: ', '');
+                        link = field.replace('Link: ', '');
                         itemHtml += '<a href="' + link + '">' + link + '</a>';
                     } else if (field.startsWith('Description: ')) {
                         const description = field.replace('Description: ', '');
@@ -37,8 +37,16 @@ function fetchAndDisplayRSS() {
                 if (pubDate) {
                     itemHtml = itemHtml.replace('<h1>' + title + '</h1>', '<h1>' + title + '</h1><p>' + pubDate + '</p>');
                 }
+                itemHtml += '<div id="qrcode"></div>';
                 itemHtml += '</div>';
                 htmlContent += itemHtml;
+
+                // Generate QR code
+                new QRCode(document.getElementById("qrcode"), {
+                    text: link,
+                    width: 128,
+                    height: 128
+                });
             });
             contentDiv.innerHTML = htmlContent;
         })
