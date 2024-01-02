@@ -3,7 +3,7 @@
         fetch('rss_content.txt')
             .then(response => response.text())
             .then(data => {
-                const contentDiv = document.getElementById('rss-content');
+                const contentDiv = document.getElementById('rssfeed');
                 // Split the content by double newline to separate each RSS item
                 const items = data.split('\n\n');
                 let htmlContent = '';
@@ -26,21 +26,21 @@
 
 /* Automatically scrolling */
 function autoScroll() {
-    if (rss-content.scrollHeight <= rss-content.clientHeight) {
+    if (rssfeed.scrollHeight <= rssfeed.clientHeight) {
         // If all content is visible, no need to scroll
         return;
     }
 
     // Check if we've scrolled to the bottom
-    if (rss-content.scrollTop + rss-content.clientHeight >= rss-content.scrollHeight) {
+    if (rssfeed.scrollTop + rssfeed.clientHeight >= rssfeed.scrollHeight) {
         scrollDirection = -1;
     }
     // Check if we've scrolled back to the top
-    else if (rss-content.scrollTop === 0) {
+    else if (rssfeed.scrollTop === 0) {
         scrollDirection = 1;
     }
 
-    rss-content.scrollTop += scrollSpeed * scrollDirection;
+    rssfeed.scrollTop += scrollSpeed * scrollDirection;
 }
 
 setInterval(autoScroll, 100); // Adjust interval for faster or slower scroll
