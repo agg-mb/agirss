@@ -1,7 +1,7 @@
 /* Automatic scrolling */
 const rssfeed = document.getElementById('rssfeed');
 let scrollDirection = 1; // 1 for downward, -1 for upward
-const scrollSpeed = 0.5; // Adjust for faster or slower scroll
+const scrollSpeed = 1; // Adjust for faster or slower scroll
 
 // Function to fetch and display RSS content
 function fetchAndDisplayRSS() {
