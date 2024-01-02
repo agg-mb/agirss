@@ -1,7 +1,7 @@
 /* Automatic scrolling */
 const rssfeed = document.getElementById('rssfeed');
 let scrollDirection = 1; // 1 for downward, -1 for upward
-const scrollSpeed = 1; // Adjust for faster or slower scroll
+const scrollSpeed = 0.5; // Adjust for faster or slower scroll
 
 // Function to fetch and display RSS content
 function fetchAndDisplayRSS() {
@@ -16,21 +16,27 @@ function fetchAndDisplayRSS() {
                 // Split each item by newline to get individual fields
                 const fields = item.split('\n');
                 let itemHtml = '<div class="rss-item">';
+                let title = '', pubDate = '';
                 fields.forEach(field => {
                     if (field.startsWith('Title: ')) {
-                        const title = field.replace('Title: ', '');
+                        title = field.replace('Title: ', '');
                         itemHtml += '<h1>' + title + '</h1>';
+                    } else if (field.startsWith('Publication Date: ')) {
+                        pubDate = field.replace('Publication Date: ', '');
                     } else if (field.startsWith('Image URL: ') && !field.includes('None')) {
                         const imageUrl = field.replace('Image URL: ', '');
                         itemHtml += '<img src="' + imageUrl + '" alt="RSS Image">';
                     } else if (field.startsWith('Link: ')) {
                         const link = field.replace('Link: ', '');
-                        itemHtml += '<a href="' + link + '">Read More</a>';
+                        itemHtml += '<a href="' + link + '">' + link + '</a>';
                     } else if (field.startsWith('Description: ')) {
                         const description = field.replace('Description: ', '');
                         itemHtml += '<p>' + description + '</p>';
                     }
                 });
+                if (pubDate) {
+                    itemHtml = itemHtml.replace('<h1>' + title + '</h1>', '<h1>' + title + '</h1><p>' + pubDate + '</p>');
+                }
                 itemHtml += '</div>';
                 htmlContent += itemHtml;
             });
