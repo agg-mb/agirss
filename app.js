@@ -17,6 +17,7 @@ function fetchAndDisplayRSS() {
                 const fields = item.split('\n');
                 let itemHtml = '<div class="rss-item">';
                 let title = '', pubDate = '';
+                let link = '';
                 fields.forEach(field => {
                     if (field.startsWith('Title: ')) {
                         title = field.replace('Title: ', '');
@@ -37,18 +38,27 @@ function fetchAndDisplayRSS() {
                 if (pubDate) {
                     itemHtml = itemHtml.replace('<h1>' + title + '</h1>', '<h1>' + title + '</h1><p>' + pubDate + '</p>');
                 }
-                itemHtml += '<div id="qrcode"></div>';
+                // Add QR code container with unique ID
+                const qrCodeContainerId = 'qrcode-' + index;
+                itemHtml += '<div id="' + qrCodeContainerId + '"></div>';
                 itemHtml += '</div>';
                 htmlContent += itemHtml;
-
-                // Generate QR code
-                new QRCode(document.getElementById("qrcode"), {
-                    text: link,
-                    width: 128,
-                    height: 128
-                });
             });
             contentDiv.innerHTML = htmlContent;
+
+            // Generate QR codes
+            items.forEach((item, index) => {
+                const qrCodeContainerId = 'qrcode-' + index;
+                const linkField = item.split('\n').find(field => field.startsWith('Link: '));
+                const link = linkField ? linkField.replace('Link: ', '') : '';
+                if (link) {
+                    new QRCode(document.getElementById(qrCodeContainerId), {
+                        text: link,
+                        width: 128,
+                        height: 128
+                    });
+                }
+            });
         })
         .catch(error => console.error('Error fetching the RSS content:', error));
 }
