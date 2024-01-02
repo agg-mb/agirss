@@ -17,7 +17,24 @@ h1, h2, h3, h4, h5, h6 {
     color: #009EE0; /* Bright blue color for headings */
 }
 
-/* CVE entry styling */
+/* Styling for individual RSS items */
+.rss-item {
+    /* Add necessary styling for the RSS item */
+    margin-bottom: 20px; /* Space between items */
+    padding: 10px;
+    border: 1px solid #ddd; /* Example border */
+    position: relative; /* For positioning the QR code */
+}
+
+/* Styling for the QR code container */
+.qr-code-container {
+    position: absolute; /* Positioning inside the rss-item */
+    right: 10px; /* Place it towards the right */
+    top: 10px; /* Align with the top of the rss-item */
+    width: 128px; /* Width of the QR code */
+    height: 128px; /* Height of the QR code */
+}
+
 .cve-entry {
     border: 1px solid #786854; /* Brownish border color */
     padding: 10px 15px;
