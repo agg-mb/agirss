@@ -7,6 +7,11 @@ def extract_image_url(description):
     match = re.search(r'<img.*?src="(.*?)"', description)
     return match.group(1) if match else None
 
+def clean_html(raw_html):
+    cleanr = re.compile('<.*?>')
+    cleantext = re.sub(cleanr, '', raw_html)
+    return cleantext
+
 # URL of the RSS feed
 rss_url = "https://agilimo.de/feed/"
 
@@ -27,5 +32,8 @@ with open('rss_content.txt', 'w') as file:
         # Extract image URL from description
         description = item.find('description').text if item.find('description') is not None else ''
         image_url = extract_image_url(description)
-        
-        file.write(f"Title: {title}\nLink: {link}\nPublication Date: {pub_date}\nImage URL: {image_url}\n\n")
+
+        # Clean HTML tags from description
+        clean_description = clean_html(description)
+
+        file.write(f"Title: {title}\nLink: {link}\nPublication Date: {pub_date}\nImage URL: {image_url}\nDescription: {clean_description}\n\n")
