@@ -4,7 +4,7 @@
     overflow: auto;
 }
 
-/* Base styling for dark mode */
+/* Base styling for light mode */
 body {
     background-color: #FFFFFF; /* White background */
     color: #786854; /* Brownish text color */
@@ -19,35 +19,19 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Styling for individual RSS items */
 .rss-item {
-    /* Add necessary styling for the RSS item */
-    margin-bottom: 20px; /* Space between items */
+    margin-bottom: 20px;
     padding: 10px;
-    border: 1px solid #ddd; /* Example border */
-    position: relative; /* For positioning the QR code */
+    border: 1px solid #ddd;
+    position: relative;
 }
 
-/* Styling for the QR code container */
+/* Styling for QR code containers */
 .qr-code-container {
-    position: absolute; /* Positioning inside the rss-item */
-    right: 10px; /* Place it towards the right */
-    top: 10px; /* Align with the top of the rss-item */
-    width: 128px; /* Width of the QR code */
-    height: 128px; /* Height of the QR code */
-}
-
-.cve-entry {
-    border: 1px solid #786854; /* Brownish border color */
-    padding: 10px 15px;
-    margin: 10px 0;
-    border-radius: 5px;
-    background-color: #1D1E24; /* Darker background for entries */
-}
-
-.cve-entry h2 {
-    font-size: 20px;
-    margin-top: 0;
-    margin-bottom: 10px;
-    color: #786854; /* Brownish text color for entry headings */
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 128px;
+    height: 128px;
 }
 
 /* Style links for better visibility */
