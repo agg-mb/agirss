@@ -2,49 +2,60 @@ Title: Skalierbarer Schutz gegen Cyberangriffe – so schützt SOCaaS Ihr Untern
 Link: https://agilimo.de/cyberabwehr-mit-socaas/
 Publication Date: Wed, 29 Nov 2023 15:07:10 +0000
 Image URL: None
+Description: SOC as a Service von agilimo - das externe Security Operations Center für Unternehmen und Organisationen zum Schutz Ihrer IT gegen Cyberangriffe.
 
 Title: Partnerschaft mit Security-Spezialist Nextron Systems
 Link: https://agilimo.de/partnerschaft-nextron/
 Publication Date: Wed, 22 Nov 2023 10:07:43 +0000
 Image URL: None
+Description: Partnerschaft mit Nextron Systems - agilimo und Nextron verzahnen Security-Expertise für maximal leistungsfähige Cyberdefense. 
 
 Title: Bessere Cybersecurity für Kommunen durch SOC as a Service
 Link: https://agilimo.de/cybersecurity-fuer-kommunen/
 Publication Date: Wed, 08 Nov 2023 13:37:02 +0000
 Image URL: None
+Description: Die Kooperation von agilimo Consulting und Systemhaus villadata macht moderne IT-Sicherheit per SOC as a Service jetzt für Kommunen auf einfache Weise zugänglich.
 
 Title: Erfolgreiche it-sa Expo für agilimo
 Link: https://agilimo.de/erfolgreiche-itsa-2023/
 Publication Date: Tue, 17 Oct 2023 07:28:42 +0000
 Image URL: None
+Description: Große Nachfrage nach der hochsicheren und ultramobilen Apple INDIGO-Lösung von agilimo und Rohde &#038; Schwarz Cybersecurity auf der it-sa 2023.
 
 Title: agilimo auf der it-sa vom 10. bis 12. Oktober
 Link: https://agilimo.de/itsa-2023/
 Publication Date: Fri, 29 Sep 2023 12:58:48 +0000
 Image URL: None
+Description: Die Elsenfelder Spezialisten für Cybersecurity und hochsicheres, mobiles  Arbeiten werden vom 10. bis 12. Oktober für Sie auf der it-sa in Nürnberg anwesend sein:  Stand 7A-306 (Halle 7A)
 
 Title: PITS Berlin: Datensicherheit nach VS-NfD nativ mit iPhone und iPad nutzen
 Link: https://agilimo.de/pits-berlin-indigo/
 Publication Date: Tue, 19 Sep 2023 16:09:59 +0000
 Image URL: None
+Description: Der Microsoft Signing Key Diebstahl und seine Folgen für die Nutzer. Ein Kommentar von agilimo CTO Thomas Edelmann.
 
 Title: Microsofts gestohlener OpenID Signing Key und die Folgen
 Link: https://agilimo.de/microsoft-signing-key/
 Publication Date: Wed, 09 Aug 2023 15:47:42 +0000
 Image URL: None
+Description: Der Microsoft Signing Key Diebstahl und seine Folgen für die Nutzer. Ein Kommentar von agilimo CTO Thomas Edelmann.
 
 Title: Sonderpreis „Agilitätschampion 2023“ für agilimo
 Link: https://agilimo.de/agilimo-agilitaetschampion/
 Publication Date: Thu, 03 Aug 2023 15:57:32 +0000
 Image URL: None
+Description: Zusammen mit der Auszeichnung als TOP Consultant und TOP 100 Innovator wurde die agilimo Consulting GmbH außerdem mit dem Sonderpreis „Agilitätschampion 2023“ gewürdigt.
+
 
 Title: agilimo Consulting zum 5. Mal als TOP CONSULTANT ausgezeichnet
 Link: https://agilimo.de/agilimo-top-consultant-2023/
 Publication Date: Mon, 26 Jun 2023 14:31:02 +0000
 Image URL: None
+Description: agilimo gehört dank seiner exzellenten Beratungsqualität auch zu den Top-Consultants 2023 und zählt damit schon zum 5. Mal in Folge zu den besten Beratern Deutschlands.
 
 Title: Apple INDIGO verändert hochsicheres Arbeiten für Organisationen
 Link: https://agilimo.de/apple-indigo-hochsicheres-arbeiten/
 Publication Date: Fri, 26 May 2023 15:39:20 +0000
 Image URL: None
+Description: Mit Apple INDIGO können Organisationen bei Einsatz von handelsüblichen iPhones und iPads eine native und hochsichere Datensicherheit auf VS-NfD-Standard erreichen. 
 
