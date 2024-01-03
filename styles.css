@@ -33,11 +33,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Styling for individual RSS items */
-.rss-item {
+.rssfeed {
     margin-bottom: 20px;
     padding: 10px;
     border: 1px solid #ddd;
-    position: relative;
+    /* position: relative; */
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto; /* For Safari */
+    -ms-hyphens: auto;     /* For Internet Explorer */
+    -moz-hyphens: auto;    /* For Firefox */
+    word-wrap: break-word;
 }
 
 /* Styling for QR code containers */
