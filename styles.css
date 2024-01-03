@@ -8,13 +8,24 @@
 body {
     background-color: #FFFFFF; /* White background */
     color: #786854; /* Brownish text color */
-    font-family: Arial, sans-serif;
+    font-family: 'Foundry Monoline OT2', sans-serif;
     font-size: 16px;
 }
 
 /* Adjust the color of headings */
 h1, h2, h3, h4, h5, h6 {
     color: #009EE0; /* Bright blue color for headings */
+}
+
+/* Styling for header (title and logo) */
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 10px; /* Adjust as needed */
+    /* Add any additional styling for the logo */
 }
 
 /* Styling for individual RSS items */
