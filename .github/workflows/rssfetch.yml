@@ -2,8 +2,8 @@ name: Fetch RSS Feed
 
 on:
   schedule:
-    # Runs every day at 16:00 UTC
-    - cron: '0 16 * * *'
+    # Runs every day at 18:15 CET
+    - cron: '0 17 15 * *'
 
 jobs:
   fetch-rss:
@@ -23,7 +23,7 @@ jobs:
         pip install requests
         pip install pytz
         pip install babel
-        python fetch_rss.py
+        python fetchrss.py
 
     - name: Commit and push if there are changes
       run: |
