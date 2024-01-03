@@ -1,5 +1,15 @@
 /* Scrolling */
 #rssfeed {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    /* position: relative; */
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto; /* For Safari */
+    -ms-hyphens: auto;     /* For Internet Explorer */
+    -moz-hyphens: auto;    /* For Firefox */
+    word-wrap: break-word;
     height: 100vh;  /* Adjust to your desired viewport height */
     overflow: auto;
 }
@@ -30,20 +40,6 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: 20px; /* Adjust as needed */
     margin-top: 10px;
     /* Add any additional styling for the logo */
-}
-
-/* Styling for individual RSS items */
-#rssfeed {
-    margin-bottom: 20px;
-    padding: 10px;
-    border: 1px solid #ddd;
-    /* position: relative; */
-    text-align: justify;
-    hyphens: auto;
-    -webkit-hyphens: auto; /* For Safari */
-    -ms-hyphens: auto;     /* For Internet Explorer */
-    -moz-hyphens: auto;    /* For Firefox */
-    word-wrap: break-word;
 }
 
 /* Styling for QR code containers */
