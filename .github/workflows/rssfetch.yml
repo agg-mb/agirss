@@ -2,8 +2,8 @@ name: Fetch RSS Feed
 
 on:
   schedule:
-    # Runs every day at 18:15 CET
-    - cron: '0 17 15 * *'
+    # Runs every 30 minutes
+    - cron: '*/30 * * * *'
 
 jobs:
   fetch-rss:
