@@ -38,7 +38,10 @@ h1, h2, h3, h4, h5, h6 {
     padding: 10px;
     border: 1px solid #ddd;
     position: relative;
+}
 
+/* Apply text styles to all children in .rss-item except h1 */
+.rss-item *:not(h1) {
     text-align: justify;           /* Justify the text for block appearance */
     hyphens: auto;                 /* Enable automatic hyphenation */
     -webkit-hyphens: auto;         /* For Safari */
