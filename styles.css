@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Styling for individual RSS items */
-.rssfeed {
+#rssfeed {
     margin-bottom: 20px;
     padding: 10px;
     border: 1px solid #ddd;
