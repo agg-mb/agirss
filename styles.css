@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Styling for header (title and logo) */
 .header {
-    font-size: 30px;
+    font-size: 20px;
     display: flex;
     align-items: center;
 }
