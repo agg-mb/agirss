@@ -1,3 +1,8 @@
+Title: agilimo auf der OMNISECURE vom 22. bis 24. Januar in Berlin
+Link: https://agilimo.de/omnisecure-2024/
+Publication Date: Mittwoch, 17. Januar 2024 12:53 Uhr
+Description: Auf der Omnisecure 2024 in Berlin sprechen die Experten von agilimo Consulting darüber, wie Unternehmen und Behörden Apple INDIGO in VS-NfD-Umgebungen erfolgreich einführen.
+
 Title: Skalierbarer Schutz gegen Cyberangriffe – so schützt SOCaaS Ihr Unternehmen
 Link: https://agilimo.de/cyberabwehr-mit-socaas/
 Publication Date: Mittwoch, 29. November 2023 16:07 Uhr
@@ -43,9 +48,4 @@ Title: agilimo Consulting zum 5. Mal als TOP CONSULTANT ausgezeichnet
 Link: https://agilimo.de/agilimo-top-consultant-2023/
 Publication Date: Montag, 26. Juni 2023 16:31 Uhr
 Description: agilimo gehört dank seiner exzellenten Beratungsqualität auch zu den Top-Consultants 2023 und zählt damit schon zum 5. Mal in Folge zu den besten Beratern Deutschlands.
-
-Title: Apple INDIGO verändert hochsicheres Arbeiten für Organisationen
-Link: https://agilimo.de/apple-indigo-hochsicheres-arbeiten/
-Publication Date: Freitag, 26. Mai 2023 17:39 Uhr
-Description: Mit Apple INDIGO können Organisationen bei Einsatz von handelsüblichen iPhones und iPads eine native und hochsichere Datensicherheit auf VS-NfD-Standard erreichen. 
 
