@@ -11,7 +11,21 @@ function fetchAndDisplayRSS() {
             const contentDiv = document.getElementById('rssfeed');
             // Split the content by double newline to separate each RSS item
             const items = data.split('\n\n');
+            function sanitizeHTML(str) {
+                var temp = document.createElement('div');
+                // Remove script tags and other potentially dangerous elements
+                temp.textContent = str;
+                var sanitized = temp.innerHTML;
+                sanitized = sanitized.replace(/<script.*?>.*?<\/script>/gi, '');
+                sanitized = sanitized.replace(/<.*?javascript:.*?>/gi, '');
+                sanitized = sanitized.replace(/<.*?\bon\w+.*?>/gi, '');
+                sanitized = sanitized.replace(/<\/?iframe.*?>/gi, '');
+                sanitized = sanitized.replace(/<\/?link.*?>/gi, '');
+                sanitized = sanitized.replace(/<\/?meta.*?>/gi, '');
+                return sanitized;
+            }
             let htmlContent = '';
+            
             items.forEach((item, index) => {
                 const fields = item.split('\n');
                 let itemHtml = '<div class="rss-item">';
@@ -42,7 +56,7 @@ function fetchAndDisplayRSS() {
                 itemHtml += '</div>';
                 htmlContent += itemHtml;
             });
-            contentDiv.textContent = htmlContent;
+            contentDiv.innerHTML = htmlContent;
 
             // Generate QR codes
             items.forEach((item, index) => {
