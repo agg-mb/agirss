@@ -42,7 +42,7 @@ function fetchAndDisplayRSS() {
                 itemHtml += '</div>';
                 htmlContent += itemHtml;
             });
-            contentDiv.innerHTML = htmlContent;
+            contentDiv.textContent = htmlContent;
 
             // Generate QR codes
             items.forEach((item, index) => {
