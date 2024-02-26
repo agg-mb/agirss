@@ -1,3 +1,8 @@
+Title: agilimo präsentiert neue Apple INDIGO-Lösung auf dem Mobile Word Congress
+Link: https://agilimo.de/indigo-in-box-mwc/
+Publication Date: Montag, 26. Februar 2024 11:00 Uhr
+Description: agilimo Consulting und Rohde und Schwarz Cybersecurity stellen neue Apple INDIGO-Lösung auf dem Mobile World Congress in Barcelona dem internationalen Fachpublikum vor.
+
 Title: Erweiterung der strategischen Partnerschaft für Apple Indigo-Lösungen
 Link: https://agilimo.de/exklusiv-partner-indigo/
 Publication Date: Mittwoch, 21. Februar 2024 11:29 Uhr
@@ -42,10 +47,4 @@ Title: Microsofts gestohlener OpenID Signing Key und die Folgen
 Link: https://agilimo.de/microsoft-signing-key/
 Publication Date: Mittwoch, 9. August 2023 17:47 Uhr
 Description: Der Microsoft Signing Key Diebstahl und seine Folgen für die Nutzer. Ein Kommentar von agilimo CTO Thomas Edelmann.
-
-Title: Sonderpreis „Agilitätschampion 2023“ für agilimo
-Link: https://agilimo.de/agilimo-agilitaetschampion/
-Publication Date: Donnerstag, 3. August 2023 17:57 Uhr
-Description: Zusammen mit der Auszeichnung als TOP Consultant und TOP 100 Innovator wurde die agilimo Consulting GmbH außerdem mit dem Sonderpreis „Agilitätschampion 2023“ gewürdigt.
-
 
