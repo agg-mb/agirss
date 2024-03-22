@@ -1,3 +1,8 @@
+Title: Hattrick: agilimo zum dritten Mal TOP-Innovator
+Link: https://agilimo.de/agilimo-top100-innovator-2024/
+Publication Date: Freitag, 22. März 2024 13:34 Uhr
+Description: Frisch gekürter Innovations-Champion: agilimo Consulting GmbH hat das TOP 100-Siegel 2024 erhalten – zum dritten Mal in Folge wird der Cybersecurity-Spezialist aus Elsenfeld als besonders innovatives mittelständische Unternehmen ausgezeichnet.
+
 Title: agilimo präsentiert neue Apple INDIGO-Lösung auf dem Mobile World Congress
 Link: https://agilimo.de/indigo-in-box-mwc/
 Publication Date: Montag, 26. Februar 2024 11:00 Uhr
@@ -41,10 +46,5 @@ Description: Die Elsenfelder Spezialisten für Cybersecurity und hochsicheres, m
 Title: PITS Berlin: Datensicherheit nach VS-NfD nativ mit iPhone und iPad nutzen
 Link: https://agilimo.de/pits-berlin-indigo/
 Publication Date: Dienstag, 19. September 2023 18:09 Uhr
-Description: Der Microsoft Signing Key Diebstahl und seine Folgen für die Nutzer. Ein Kommentar von agilimo CTO Thomas Edelmann.
-
-Title: Microsofts gestohlener OpenID Signing Key und die Folgen
-Link: https://agilimo.de/microsoft-signing-key/
-Publication Date: Mittwoch, 9. August 2023 17:47 Uhr
 Description: Der Microsoft Signing Key Diebstahl und seine Folgen für die Nutzer. Ein Kommentar von agilimo CTO Thomas Edelmann.
 
