@@ -8,42 +8,14 @@ function fetchAndDisplayRSS() {
     fetch('rss_content.txt')
         .then(response => response.text())
         .then(data => {
-            const contentDiv = document.getElementById('rssfeed');
-            // Split the content by double newline to separate each RSS item
-            const items = data.split('\n\n');
-            
-    function sanitizeHTML(str) {
-        var temp = document.createElement('div');
-        temp.innerHTML = str;
-    
-        // Allowable tags and attributes
-        var safe_tags = ['a', 'b', 'i', 'em', 'strong', 'p', 'ul', 'li', 'h1', 'h2', 'h3', 'br', 'span', 'div'];
-        var safe_attrs = ['href', 'title', 'style', 'target', 'rel', 'class', 'id'];
-    
-        // Remove script tags and event handlers
-        var elements = temp.getElementsByTagName('*');
-        for (var i = 0; i < elements.length; i++) {
-            var element = elements[i];
-            for (var j = element.attributes.length - 1; j >= 0; j--) {
-                var attribute = element.attributes[j];
-                if (safe_attrs.indexOf(attribute.name.toLowerCase()) === -1 || attribute.name.startsWith('on')) {
-                    element.removeAttribute(attribute.name);
-                }
-            }
-            if (safe_tags.indexOf(element.tagName.toLowerCase()) === -1) {
-                element.parentNode.replaceChild(document.createTextNode(element.outerHTML), element);
-            }
-        }
-        return temp.innerHTML; // return sanitized HTML
-    }
+            const contentDiv = document.getElementById('rssfeed'); // This should be the element where you want to display the RSS content
+            const items = data.split('\\n\\n');
+            let htmlContent = ''; // Initialize the variable to store the HTML content
 
-    let content = '';
-
-            
             items.forEach((item, index) => {
-                const fields = item.split('\n');
+                const fields = item.split('\\n');
                 let itemHtml = '<div class="rss-item">';
-                let link = '';
+                let link = '', title = '', pubDate = ''; // Declare variables to ensure they are not globally scoped
                 fields.forEach(field => {
                     if (field.startsWith('Title: ')) {
                         title = field.replace('Title: ', '');
@@ -68,9 +40,9 @@ function fetchAndDisplayRSS() {
                 const qrCodeContainerId = 'qrcode-' + index;
                 itemHtml += '<div id="' + qrCodeContainerId + '"></div>';
                 itemHtml += '</div>';
-                htmlContent += itemHtml;
+                htmlContent += itemHtml; // Append the item's HTML to the htmlContent variable
             });
-            dashboard.innerHTML = sanitizeHTML(content);
+            contentDiv.innerHTML = sanitizeHTML(htmlContent); // Set the innerHTML of the content div
 
             // Generate QR codes
             items.forEach((item, index) => {
@@ -118,3 +90,28 @@ function refreshPage() {
 }
 
 setTimeout(refreshPage, 900000); // 900000 milliseconds = 15 minutes
+
+function sanitizeHTML(str) {
+    var temp = document.createElement('div');
+    temp.innerHTML = str;
+
+    // Allowable tags and attributes
+    var safe_tags = ['a', 'b', 'i', 'em', 'strong', 'p', 'ul', 'li', 'h1', 'h2', 'h3', 'br', 'span', 'div'];
+    var safe_attrs = ['href', 'title', 'style', 'target', 'rel', 'class', 'id'];
+
+    // Remove script tags and event handlers
+    var elements = temp.getElementsByTagName('*');
+    for (var i = 0; i < elements.length; i++) {
+        var element = elements[i];
+        for (var j = element.attributes.length - 1; j >= 0; j--) {
+            var attribute = element.attributes[j];
+            if (safe_attrs.indexOf(attribute.name.toLowerCase()) === -1 || attribute.name.startsWith('on')) {
+                element.removeAttribute(attribute.name);
+            }
+        }
+        if (safe_tags.indexOf(element.tagName.toLowerCase()) === -1) {
+            element.parentNode.replaceChild(document.createTextNode(element.outerHTML), element);
+        }
+    }
+    return temp.innerHTML; // return sanitized HTML
+}
