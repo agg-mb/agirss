@@ -9,11 +9,11 @@ function fetchAndDisplayRSS() {
         .then(response => response.text())
         .then(data => {
             const contentDiv = document.getElementById('rssfeed'); // This should be the element where you want to display the RSS content
-            const items = data.split('\\n\\n');
+            const items = data.split('\n\n');
             let htmlContent = ''; // Initialize the variable to store the HTML content
 
             items.forEach((item, index) => {
-                const fields = item.split('\\n');
+                const fields = item.split('\n');
                 let itemHtml = '<div class="rss-item">';
                 let link = '', title = '', pubDate = ''; // Declare variables to ensure they are not globally scoped
                 fields.forEach(field => {
