@@ -1,7 +1,7 @@
 Title: Sicherheitslücke in xz-Bibliotheken (Linux) – Gefahr für SSH-Verbindungen
 Link: https://agilimo.de/backdoor-xz-linux/
 Publication Date: Freitag, 5. April 2024 19:43 Uhr
-Description: Red Hat (Linux) informiert über Schadcode in xz- Bibliotheken für die Versionen 5.6.0 und 5.6.1. Die Ausnutzung der Sicherheitslücke CVE-2024-3094 ermöglicht den unauthorisierten Zugang zu Systemen über das SSH-Protokoll.
+Description: Red Hat (Linux) informiert über Schadcode in xz-Bibliotheken für die Versionen 5.6.0 und 5.6.1. Die Ausnutzung der Sicherheitslücke CVE-2024-3094 ermöglicht den unauthorisierten Zugang zu Systemen über das SSH-Protokoll.
 
 Title: Hattrick: agilimo zum dritten Mal TOP-Innovator
 Link: https://agilimo.de/agilimo-top100-innovator-2024/
