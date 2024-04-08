@@ -10,7 +10,7 @@ body {
     color: #786854; /* Brownish text color */
     font-family: 'Foundry Monoline OT2', sans-serif;
     font-size: 16px;
-    pointer-events: none;
+/*    pointer-events: none; */
 }
 
 /* Adjust the color of headings */
