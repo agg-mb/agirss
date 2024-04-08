@@ -116,9 +116,7 @@ function sanitizeHTML(str) {
     return temp.innerHTML; // return sanitized HTML
 }
 
-/*
 document.addEventListener('click', function(event) {
     // Prevent default action for all clicks except those on the scrollbar
     event.preventDefault();
 }, true);
-*/
