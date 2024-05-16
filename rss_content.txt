@@ -1,3 +1,8 @@
+Title: Strategische Partnerschaft von agilimo und xorlab für E-Mail-Security
+Link: https://agilimo.de/xorlab-partnerschaft/
+Publication Date: Donnerstag, 16. Mai 2024 07:30 Uhr
+Description: Mit der strategischen Partnerschaft  wird agilimo Consulting für Deutschland ein wichtiger Partner des Schweizer E-Mail-Security Unternehmens xorlab. Die KI-gestützte E-Mail-Security von xorlab erweitert das agilimo-Portfolio der Managed Security Services für Unternehmen mit einer hochmodernen Lösung für den Schutz geschäftlicher E-Mails.
+
 Title: Sicherheitslücke in xz-Bibliotheken (Linux) – Gefahr für SSH-Verbindungen
 Link: https://agilimo.de/backdoor-xz-linux/
 Publication Date: Freitag, 5. April 2024 19:43 Uhr
@@ -42,9 +47,4 @@ Title: Erfolgreiche it-sa Expo für agilimo
 Link: https://agilimo.de/erfolgreiche-itsa-2023/
 Publication Date: Dienstag, 17. Oktober 2023 09:28 Uhr
 Description: Große Nachfrage nach der hochsicheren und ultramobilen Apple INDIGO-Lösung von agilimo und Rohde &#038; Schwarz Cybersecurity auf der it-sa 2023.
-
-Title: agilimo auf der it-sa vom 10. bis 12. Oktober
-Link: https://agilimo.de/itsa-2023/
-Publication Date: Freitag, 29. September 2023 14:58 Uhr
-Description: Die Elsenfelder Spezialisten für Cybersecurity und hochsicheres, mobiles  Arbeiten werden vom 10. bis 12. Oktober für Sie auf der it-sa in Nürnberg anwesend sein:  Stand 7A-306 (Halle 7A)
 
