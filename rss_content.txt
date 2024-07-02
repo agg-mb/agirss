@@ -1,3 +1,8 @@
+Title: agilimo unter den TOP 3 der besten  Mittelstandsberater
+Link: https://agilimo.de/top-consultant-2024/
+Publication Date: Dienstag, 2. Juli 2024 17:11 Uhr
+Description: Die agilimo Consulting GmbH erhält 2024 zum sechsten Mal das TOP CONSULTANT-Siegel und platziert sich unter den TOP 3 der besten deutschen Berater.
+
 Title: Strategische Partnerschaft von agilimo und xorlab für E-Mail-Security
 Link: https://agilimo.de/xorlab-partnerschaft/
 Publication Date: Donnerstag, 16. Mai 2024 07:30 Uhr
@@ -42,9 +47,4 @@ Title: Bessere Cybersecurity für Kommunen durch SOC as a Service
 Link: https://agilimo.de/cybersecurity-fuer-kommunen/
 Publication Date: Mittwoch, 8. November 2023 14:37 Uhr
 Description: Die Kooperation von agilimo Consulting und Systemhaus villadata macht moderne IT-Sicherheit per SOC as a Service jetzt für Kommunen auf einfache Weise zugänglich.
-
-Title: Erfolgreiche it-sa Expo für agilimo
-Link: https://agilimo.de/erfolgreiche-itsa-2023/
-Publication Date: Dienstag, 17. Oktober 2023 09:28 Uhr
-Description: Große Nachfrage nach der hochsicheren und ultramobilen Apple INDIGO-Lösung von agilimo und Rohde &#038; Schwarz Cybersecurity auf der it-sa 2023.
 
