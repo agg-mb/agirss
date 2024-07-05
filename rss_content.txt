@@ -1,3 +1,8 @@
+Title: agilimo erhält TOP 100 Award von Raga Yogeshwar
+Link: https://agilimo.de/top100-2024-preisverleihung/
+Publication Date: Freitag, 5. Juli 2024 15:00 Uhr
+Description: Die agilimo Consulting GmbH erhält 2024 zum dritten Mal in Folge Mal die Auszeichnung als TOP 100 Innovator. Ranga Yogeshwar gratuliert zur Auszeichnung.
+
 Title: agilimo unter den TOP 3 der besten  Mittelstandsberater
 Link: https://agilimo.de/top-consultant-2024/
 Publication Date: Dienstag, 2. Juli 2024 17:11 Uhr
@@ -42,9 +47,4 @@ Title: Partnerschaft mit Security-Spezialist Nextron Systems
 Link: https://agilimo.de/partnerschaft-nextron/
 Publication Date: Mittwoch, 22. November 2023 11:07 Uhr
 Description: Partnerschaft mit Nextron Systems - agilimo und Nextron verzahnen Security-Expertise für maximal leistungsfähige Cyberdefense. 
-
-Title: Bessere Cybersecurity für Kommunen durch SOC as a Service
-Link: https://agilimo.de/cybersecurity-fuer-kommunen/
-Publication Date: Mittwoch, 8. November 2023 14:37 Uhr
-Description: Die Kooperation von agilimo Consulting und Systemhaus villadata macht moderne IT-Sicherheit per SOC as a Service jetzt für Kommunen auf einfache Weise zugänglich.
 
