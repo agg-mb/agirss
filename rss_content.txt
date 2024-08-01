@@ -1,3 +1,8 @@
+Title: Digital Safety First? – Lohn+Gehalt im Gespräch mit Claudia Di Chio
+Link: https://agilimo.de/lug-interview-dichio/
+Publication Date: Donnerstag, 1. August 2024 15:34 Uhr
+Description: "Digital Safety First?" - agilimo Partner Managerin Claudia di Chio im Gespräch mit Dr. Silvija Franjic für das Magazin Lohn+Gehalt über Cyberrisiken für Unternehmen und wie diese sich schützen können.
+
 Title: agilimo erhält TOP 100 Award von Raga Yogeshwar
 Link: https://agilimo.de/top100-2024-preisverleihung/
 Publication Date: Freitag, 5. Juli 2024 15:00 Uhr
@@ -42,9 +47,4 @@ Title: Skalierbarer Schutz gegen Cyberangriffe – so schützt SOCaaS Ihr Untern
 Link: https://agilimo.de/cyberabwehr-mit-socaas/
 Publication Date: Mittwoch, 29. November 2023 16:07 Uhr
 Description: SOC as a Service von agilimo - das externe Security Operations Center für Unternehmen und Organisationen zum Schutz Ihrer IT gegen Cyberangriffe.
-
-Title: Partnerschaft mit Security-Spezialist Nextron Systems
-Link: https://agilimo.de/partnerschaft-nextron/
-Publication Date: Mittwoch, 22. November 2023 11:07 Uhr
-Description: Partnerschaft mit Nextron Systems - agilimo und Nextron verzahnen Security-Expertise für maximal leistungsfähige Cyberdefense. 
 
