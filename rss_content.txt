@@ -1,12 +1,7 @@
 Title: agilimo erhält Rising Star Award von SOTI
-Link: https://agilimo.de/soti-rising-star-award-2/
-Publication Date: Mittwoch, 9. Oktober 2024 11:08 Uhr
-Description: Die agilimo Consulting GmbH erhält 2024 zum dritten Mal in Folge Mal die Auszeichnung als TOP 100 Innovator. Ranga Yogeshwar gratuliert zur Auszeichnung.
-
-Title: agilimo erhält Rising Star Award von SOTI
 Link: https://agilimo.de/soti-rising-star-award/
 Publication Date: Mittwoch, 9. Oktober 2024 11:08 Uhr
-Description: Die agilimo Consulting GmbH erhält 2024 zum dritten Mal in Folge Mal die Auszeichnung als TOP 100 Innovator. Ranga Yogeshwar gratuliert zur Auszeichnung.
+Description: Die agilimo Consulting GmbH erhält 2024 den Rising Star Award von SOTI für herausragende Projektleistungen.
 
 Title: Digital Safety First? – Lohn+Gehalt im Gespräch mit Claudia Di Chio
 Link: https://agilimo.de/lug-interview-dichio/
@@ -47,4 +42,9 @@ Title: Erweiterung der strategischen Partnerschaft für Apple Indigo-Lösungen
 Link: https://agilimo.de/exklusiv-partner-indigo/
 Publication Date: Mittwoch, 21. Februar 2024 11:29 Uhr
 Description: Erweiterung der strategischen Partnerschaft zwischen Rohde &#038; Schwarz Cybersecurity, agilimo Consulting GmbH und Materna Virtual Solution für die Umsetzung der Apple Indigo-Lösung.
+
+Title: agilimo auf der OMNISECURE vom 22. bis 24. Januar in Berlin
+Link: https://agilimo.de/omnisecure-2024/
+Publication Date: Mittwoch, 17. Januar 2024 12:53 Uhr
+Description: Auf der Omnisecure 2024 in Berlin sprechen die Experten von agilimo Consulting darüber, wie Unternehmen und Behörden Apple INDIGO in VS-NfD-Umgebungen erfolgreich einführen.
 
