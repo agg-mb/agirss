@@ -1,3 +1,8 @@
+Title: it-sa 2024: IT-Security made in Germany steht international für Qualität
+Link: https://agilimo.de/vigyikan-neuer-coo-copy/
+Publication Date: Freitag, 1. November 2024 10:57 Uhr
+Description: Die it-sa 2024 macht den internationalen Stellenwert von IT-Security made in Germany deutlich. agilimo Cybersecurity Experten sind auf drei Partnerständen vertreten.
+
 Title: agilimo erweitert Geschäftsführung – Florian Vigyikan wird neuer COO
 Link: https://agilimo.de/vigyikan-neuer-coo/
 Publication Date: Freitag, 18. Oktober 2024 14:58 Uhr
@@ -42,9 +47,4 @@ Title: agilimo präsentiert neue Apple INDIGO-Lösung auf dem Mobile World Congr
 Link: https://agilimo.de/indigo-in-box-mwc/
 Publication Date: Montag, 26. Februar 2024 11:00 Uhr
 Description: agilimo Consulting und Rohde und Schwarz Cybersecurity stellen neue Apple INDIGO-Lösung auf dem Mobile World Congress in Barcelona dem internationalen Fachpublikum vor.
-
-Title: Erweiterung der strategischen Partnerschaft für Apple Indigo-Lösungen
-Link: https://agilimo.de/exklusiv-partner-indigo/
-Publication Date: Mittwoch, 21. Februar 2024 11:29 Uhr
-Description: Erweiterung der strategischen Partnerschaft zwischen Rohde &#038; Schwarz Cybersecurity, agilimo Consulting GmbH und Materna Virtual Solution für die Umsetzung der Apple Indigo-Lösung.
 
