@@ -1,3 +1,8 @@
+Title: agilimo als Innovator des Jahres ausgezeichnet Kopieren
+Link: https://agilimo.de/innovator-des-jahres-2024-copy/
+Publication Date: Mittwoch, 5. Februar 2025 16:10 Uhr
+Description: agilimo Consulting wurde beim Festakt zum Innovator of the Year für seine unternehmerische Innovationskraft als Innovator des Jahres 2024 ausgezeichnet.
+
 Title: agilimo als Innovator des Jahres ausgezeichnet
 Link: https://agilimo.de/innovator-des-jahres-2024/
 Publication Date: Mittwoch, 20. November 2024 11:03 Uhr
@@ -42,9 +47,4 @@ Title: Sicherheitslücke in xz-Bibliotheken (Linux) – Gefahr für SSH-Verbindu
 Link: https://agilimo.de/backdoor-xz-linux/
 Publication Date: Freitag, 5. April 2024 19:43 Uhr
 Description: Red Hat (Linux) informiert über Schadcode in xz-Bibliotheken für die Versionen 5.6.0 und 5.6.1. Die Ausnutzung der Sicherheitslücke CVE-2024-3094 ermöglicht den unauthorisierten Zugang zu Systemen über das SSH-Protokoll.
-
-Title: Hattrick: agilimo zum dritten Mal TOP-Innovator
-Link: https://agilimo.de/agilimo-top100-innovator-2024/
-Publication Date: Freitag, 22. März 2024 13:34 Uhr
-Description: Frisch gekürter Innovations-Champion: agilimo Consulting GmbH hat das TOP 100-Siegel 2024 erhalten – zum dritten Mal in Folge wird der Cybersecurity-Spezialist aus Elsenfeld als besonders innovatives mittelständische Unternehmen ausgezeichnet.
 
