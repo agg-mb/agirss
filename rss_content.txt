@@ -1,3 +1,8 @@
+Title: Cybernation Deutschland – agilimo setzt auf Datensouveränität
+Link: https://agilimo.de/cyber-nation-deutschland/
+Publication Date: Dienstag, 11. Februar 2025 17:28 Uhr
+Description: agilimo Consulting wirkt als Mitglied der Task Force "Cyber-Nation" an der Entwicklung des Forderungskatalogs des Bundesverbandes IT-Sicherheit e.V. (TeleTrusT) mit und bringt seine langjährige Expertise in die strategische Ausrichtung der Cybernation Deutschland ein.
+
 Title: Vierter TOP 100-Award für agilimo
 Link: https://agilimo.de/top100-2025/
 Publication Date: Mittwoch, 5. Februar 2025 16:10 Uhr
@@ -42,9 +47,4 @@ Title: Strategische Partnerschaft von agilimo und xorlab für E-Mail-Security
 Link: https://agilimo.de/xorlab-partnerschaft/
 Publication Date: Donnerstag, 16. Mai 2024 07:30 Uhr
 Description: Mit der strategischen Partnerschaft  wird agilimo Consulting für Deutschland ein wichtiger Partner des Schweizer E-Mail-Security Unternehmens xorlab. Die KI-gestützte E-Mail-Security von xorlab erweitert das agilimo-Portfolio der Managed Security Services für Unternehmen mit einer hochmodernen Lösung für den Schutz geschäftlicher E-Mails.
-
-Title: Sicherheitslücke in xz-Bibliotheken (Linux) – Gefahr für SSH-Verbindungen
-Link: https://agilimo.de/backdoor-xz-linux/
-Publication Date: Freitag, 5. April 2024 19:43 Uhr
-Description: Red Hat (Linux) informiert über Schadcode in xz-Bibliotheken für die Versionen 5.6.0 und 5.6.1. Die Ausnutzung der Sicherheitslücke CVE-2024-3094 ermöglicht den unauthorisierten Zugang zu Systemen über das SSH-Protokoll.
 
