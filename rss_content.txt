@@ -1,3 +1,8 @@
+Title: Gastbeitrag in der Süddeutschen Zeitung: Marcus Heinrich über die digitale Selbstbestimmung im Mittelstand
+Link: https://agilimo.de/sz-digitale-resilienz-und-datensouveraenitaet/
+Publication Date: Mittwoch, 25. Juni 2025 18:18 Uhr
+Description: Digitale Selbstbestimmung statt digitaler Abhängigkeit. In seinem Beitrag warnt Heinrich vor einer gefährlichen Schieflage durch Abhängigkeit von ausländische It-Produkten. Heinrichs Appell: Der deutsche Mittelstand muss sich seine digitale Souveränität zurückholen.
+
 Title: agilimo kooperiert mit FTI Consulting – Schnelle Hilfe bei Cyberangriffen
 Link: https://agilimo.de/agilimo-kooperiert-mit-fti/
 Publication Date: Freitag, 28. Februar 2025 15:55 Uhr
@@ -42,9 +47,4 @@ Title: agilimo erhält TOP 100 Award von Ranga Yogeshwar
 Link: https://agilimo.de/top100-2024-preisverleihung/
 Publication Date: Freitag, 5. Juli 2024 15:00 Uhr
 Description: Die agilimo Consulting GmbH erhält 2024 zum dritten Mal in Folge Mal die Auszeichnung als TOP 100 Innovator. Ranga Yogeshwar gratuliert zur Auszeichnung.
-
-Title: agilimo unter den TOP 3 der besten  Mittelstandsberater
-Link: https://agilimo.de/top-consultant-2024/
-Publication Date: Dienstag, 2. Juli 2024 17:11 Uhr
-Description: Die agilimo Consulting GmbH erhält 2024 zum sechsten Mal das TOP CONSULTANT-Siegel und platziert sich unter den TOP 3 der besten deutschen Berater.
 
