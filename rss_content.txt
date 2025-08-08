@@ -1,7 +1,7 @@
-Title: Indigo-Training: Zwei Tage Expertise für einen sicheren COMSEC-Rollout
+Title: Indigo-Training: Zwei Tage Expertise für einen sicheren R&S®ComSec-Rollout
 Link: https://agilimo.de/indigo_training_juli_2025/
 Publication Date: Freitag, 8. August 2025 10:43 Uhr
-Description: Am 29. und 30 Juli 2025 haben wir bei agilimo eine zweitägige Schulung für einen unserer Kunden durchgeführt, der sich auf den nächsten großen Indigo-COMSEC-Rollout (Communication Security) vorbereitet. Das Ziel: Unseren Kunden optimal auf die sichere, effiziente und regelkonforme Implementierung der neuen Lösung vorzubereiten. Im Fokus standen dabei vor allem Besonderheiten beim Mobile Device Management&#8230;
+Description: Am 29. und 30 Juli 2025 haben wir bei agilimo eine zweitägige Schulung für einen unserer Kunden durchgeführt, der sich auf den nächsten großen indigo R&#38;S®ComSec-Rollout vorbereitet. Das Ziel: Unseren Kunden optimal auf die sichere, effiziente und regelkonforme Implementierung der neuen Lösung vorzubereiten. Im Fokus standen dabei vor allem Besonderheiten beim Mobile Device Management (MDM)&#8230;
 
 Title: Motivation trifft Teamspirit: Tony Robbins bei agilimo
 Link: https://agilimo.de/tony-robbins-2025/
