@@ -1,3 +1,8 @@
+Title: Zwei Tage voller Modernisierung: agilimo-Team im Rechenzentrum Ostermiething
+Link: https://agilimo.de/server_on_the_move_2025/
+Publication Date: Freitag, 15. August 2025 11:40 Uhr
+Description: Mehr Sicherheit. Mehr Performance. Mehr Zukunft. Am 12. und 13. August 2025 war unser Team im Rechenzentrum in Ostermiething im Einsatz – mit einer klaren Mission: Unsere IT-Infrastruktur auf das nächste Level bringen und unsere Kernbotschaft „IT Security made in Germany“ noch stärker mit modernster Technik untermauern. Die wichtigsten Upgrades im Überblick: Netzwerk-Upgrade auf allen&#8230;
+
 Title: Apple indigo-Training: Zwei Tage Expertise für einen sicheren R&S®ComSec-Rollout
 Link: https://agilimo.de/indigo_training_juli_2025/
 Publication Date: Freitag, 8. August 2025 10:43 Uhr
@@ -42,9 +47,4 @@ Title: agilimo als Innovator des Jahres ausgezeichnet
 Link: https://agilimo.de/innovator-des-jahres-2024/
 Publication Date: Mittwoch, 20. November 2024 11:03 Uhr
 Description: agilimo Consulting wurde beim Festakt zum Innovator of the Year für seine unternehmerische Innovationskraft als Innovator des Jahres 2024 ausgezeichnet.
-
-Title: it-sa 2024: IT-Security made in Germany steht international für Qualität
-Link: https://agilimo.de/it-sa-2024/
-Publication Date: Freitag, 1. November 2024 10:57 Uhr
-Description: Die it-sa 2024 macht den internationalen Stellenwert von IT-Security made in Germany deutlich. agilimo Cybersecurity Experten sind auf drei Partnerständen vertreten.
 
