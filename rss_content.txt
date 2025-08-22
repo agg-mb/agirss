@@ -1,3 +1,8 @@
+Title: Neue Unit-Directors verstärken das Management bei agilimo
+Link: https://agilimo.de/erweiterung-fuehrungsteam/
+Publication Date: Freitag, 22. August 2025 16:43 Uhr
+Description: agilimo baut sein Führungsteam für die Bereiche IT-Operations und Security-Operations aus: Dennis Scheyk und Maik Pagel verstärken das Management als Unit Directors.
+
 Title: Zwei Tage voller Modernisierung: agilimo-Team im Rechenzentrum Ostermiething
 Link: https://agilimo.de/server_on_the_move_2025/
 Publication Date: Freitag, 15. August 2025 11:40 Uhr
@@ -42,9 +47,4 @@ Title: Vierter TOP 100-Award für agilimo
 Link: https://agilimo.de/top100-2025/
 Publication Date: Mittwoch, 5. Februar 2025 16:10 Uhr
 Description: agilimo Consulting erhält für seine unternehmerische Innovationskraft zum vierten Mal in Folge das TOP-Innovator Siegel 2025.
-
-Title: agilimo als Innovator des Jahres ausgezeichnet
-Link: https://agilimo.de/innovator-des-jahres-2024/
-Publication Date: Mittwoch, 20. November 2024 11:03 Uhr
-Description: agilimo Consulting wurde beim Festakt zum Innovator of the Year für seine unternehmerische Innovationskraft als Innovator des Jahres 2024 ausgezeichnet.
 
